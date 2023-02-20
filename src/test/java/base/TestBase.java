@@ -17,6 +17,7 @@ public class TestBase {
         Configuration.driverManagerEnabled = true;
         Configuration.browserCapabilities.setCapability("networkConnectionEnabled", true);
         Configuration.baseUrl = "https://fe-automation-tool.s3.eu-west-1.amazonaws.com/index.html";
+        Configuration.screenshots = true;
     }
 
 
